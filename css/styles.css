@@ -49,9 +49,7 @@ body {
   -webkit-resizer: /*— изменение размеров*/
 }
 
-.slider_demonstration {
-  background-color: black;
-}
+.header {  }
 
 .garland-1 {
 position: absolute;
@@ -59,6 +57,10 @@ width: 1235px;
 height: 123px;
 bottom: 752p;
 left: 31px;   
+}
+
+.slider_demonstration {
+  background-color: black;
 }
 
 .btn-prev, .btn-next { 
@@ -894,7 +896,8 @@ box-shadow: 0px 0px 23px 15px #27b795d1;
 position: absolute;
 width: 1280p;
 height: 957p;
-top: 2418px;
+top: 3135px;
+box-shadow: 0px -7px 33px 28px #ac87d1d6;
 }
 
 .garland-5 {
@@ -942,9 +945,14 @@ background-position: center;
 
 .iframeTema {
 position: absolute;
-width: 1280px;
-height: 720px;
-top: 3374px;    
+width: 1252px;
+height: 704px;
+top: 2347px;
+left: 2px; 
+border: 12px solid #7176fd7a;
+border-radius: 50px;
+background-color: #5f9ea0; 
+box-shadow: 0px 0px 27px 27px #9ea1ff;  
 }
 
 
