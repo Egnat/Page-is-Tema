@@ -1,6 +1,6 @@
 * {
-margin: 0px;
-padding: 0px;
+margin: 0px;/*нужно прописывать сразу, до токо, как начал прописывать стили элементам*/
+padding: 0px;/*или не ставить вообще иначе, когда стили элементам выставлены уже и прописать эту фишку, стили в некоторых элементах нужно будет менять*/
 }
 
 ::-webkit-scrollbar {
@@ -939,15 +939,19 @@ background-position: center;
 -webkit-filter: grayscale(29%) contrast(125%) opacity(0.5); /*эффекты можно комбинировать*/   
 }
 
-bigPhoto {
-  width: 500px;
-  height: 500px;
+.iframeTema {
+position: absolute;
+width: 1280px;
+height: 720px;
+top: 3374px;    
 }
 
 
-
-
 @media screen and (max-width: 1300px) {}
+
+@media screen and (max-width: 1280px) {
+.garland-1 { bottom: 674p; } 
+}
 
 @media screen and (max-width: 1024px) {
 .image-parlax { width: 60%; }
