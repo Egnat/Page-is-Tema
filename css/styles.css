@@ -57,7 +57,7 @@ body {
 position: absolute;
 width: 1235px;
 height: 123px;
-bottom: 752px;
+bottom: 752p;
 left: 31px;   
 }
 
@@ -956,27 +956,27 @@ top: 3374px;
 
 @media screen and (max-width: 1024px) {
 .image-parlax { width: 60%; }
-.garland-1 { bottom: 660px; } 
+.garland-1 { bottom: 660p; } 
 }
 
 @media screen and (max-width: 800px) {
 .image-parlax { width:78%; top: 1392px;left: 285px;}
-.garland-1 { bottom: 1147px; }     
+.garland-1 { bottom: 1147p; }     
 }
 
 @media screen and (max-width: 768px) {
 .image-parlax { width: 80%; left: 304px;}
-.garland-1 { bottom: 660px; }   
+.garland-1 { bottom: 660p; }   
 }
 
 @media screen and (max-width: 425px) {
 .image-parlax { width: 147%; left: 300px;} 
-.garland-1 { bottom: 660px; } 
+.garland-1 { bottom: 660p; } 
 .slide-text6 { width: 956p; right: 96p; } 
 .slide-text7 { right: 93p; }  
 }
 
 @media screen and (max-width: 375px) {
 .image-parlax { width: 165%; left: 300px;} 
-.garland-1 { bottom: 660px; }  
+.garland-1 { bottom: 660p; }  
 }
