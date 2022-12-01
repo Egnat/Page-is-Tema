@@ -78,9 +78,9 @@ left: 31px;
   }
 }
 
-.flying_santa {
+.flyingSanta {
 position: absolute;
-/*animation-duration: 100s; /*регулируется быстрота и медлительность движения при включенном js*/
+/*animation-duration: 100s;*/ /*регулируется быстрота и медлительность движения при включенном js*/
 /*animation-name: mymove;*/
 top: 56px;
 z-index: 2;
@@ -95,6 +95,11 @@ z-index: 2;
 from { left:0px; }
 to { left:927px; } /*ставим размер экрана, чтобы гугл исчезал если нужно*
 }*/
+
+.Santa {
+width: 200p;
+height: 200p;/*ширину и высоту  тоже можно устанавливать, самой картинке, не блоку*/
+}
 
 .slider_demonstration {
   background-color: black;
@@ -1041,7 +1046,7 @@ background-position: center;
   }
 }
 
-.flying_santa {
+.flyingSanta {
 position: absolute;
 top: 44px;
 z-index: 2;
@@ -1074,7 +1079,7 @@ z-index: 2;
   }
 }
 
-.flying_santa {
+.flyingSanta {
 position: absolute;
 top: 44px;
 z-index: 2;
@@ -1107,7 +1112,7 @@ z-index: 2;
   }
 }
 
-.flying_santa {
+.flyingSanta {
 position: absolute;
 top: 44px;
 z-index: 2;
@@ -1140,7 +1145,7 @@ z-index: 2;
   }
 }
 
-.flying_santa {
+.flyingSanta {
 position: absolute;
 top: 44px;
 z-index: 2;
@@ -1173,7 +1178,7 @@ z-index: 2;
   }
 }
 
-.flying_santa {
+.flyingSanta {
 position: absolute;
 top: 44px;
 z-index: 2;
