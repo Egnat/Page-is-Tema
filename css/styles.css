@@ -55,9 +55,10 @@ body {
 
 .garland-1 {
 position: absolute;
-width: 1280px;
+width: 1235px;
 height: 123px;
-bottom: 752px;   
+bottom: 752px;
+left: 31px;   
 }
 
 .btn-prev, .btn-next { 
@@ -665,7 +666,7 @@ left: 23px;
 .garland-2 {
   position: absolute;
   width: 1236px;
-  bottom: 1196px;
+  bottom: 338px;
 }
 
 .blockVideo-1 {
