@@ -1093,7 +1093,7 @@ z-index: 2;
   height: 0;
   background: #fff;
   visibility: hidden;
-  transition: 0.5s;
+  ransition: 0.5s;/*скорость открытия содержимого экордионса, если включён и есть фото, то при закрытии фото исчезает медленнее, чем закрывается экордионс*/
   overflow-y: auto; 
 }
 .accordion .contentBx.active .content
