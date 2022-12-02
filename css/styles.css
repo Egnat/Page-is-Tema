@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
 * {
 margin: 0px;/*нужно прописывать сразу, до токо, как начал прописывать стили элементам*/
 padding: 0px;/*или не ставить вообще иначе, когда стили элементам выставлены уже и прописать эту фишку, стили в некоторых элементах нужно будет менять*/
@@ -749,10 +751,93 @@ cursor: pointer;
  z-index: 1; 
 }
 
+.beauty-rotate {
+ position: absolute; 
+ width: 212px;
+ height: 218px;  
+ top: 1421px;
+left: 22px;
+border: 8px double #f00;
+border-radius: 35px;
+box-shadow: 0px 0px 42px 21px #9c27b0; 
+overflow: hidden;
+-webkit-transition: all 0.5s ease;/*медленное уменьшение фото*/ 
+transition: all 0.5s ease;/*медленное уменьшение фото*/ 
+cursor: pointer;
+z-index: 1;
+}
+
+.beauty-rotate:hover, .beauty-rotate:active, .pufikAndTemaTwo:hover, .pufikAndTemaTwo:active {
+width: 570px;/*увеличивается и без помощи active, hover - фотка крутится и увеличивается */
+height: 450px;
+top: 1527px; 
+left: 323px;
+border-radius: 50%;
+background-color: gold;
+z-index: 1;
+-webkit-transform: rotate(360deg);
+transform: rotate(360deg);
+transition: all 2s ease-out .2s;/*фото медленно увеличивается*/
+ransform:matrix(5, 0, 0, 4, 311, 39);  
+}
+
+.pufikAndTemaTwo {
+width: 210px;
+height: 218px;   
+}
+
+/* Настройки для переворота рамки у фото*/ 
+.mask{
+--uiMaskClipPath: var(--maskClipPath);
+box-sizing: var(--maskBoxSizing, border-box);
+display: var(--maskDisplay, inline-flex);
+padding: var(--maskStrokeThickness, 3px);
+clip-path: var(--uiMaskClipPath);
+background-color: var(--maskStrokeColor, currentColor);
+--maskStrokeColor: #db7014; /* Цвет рамки */
+--maskStrokeThickness: 5px;/* Ширина рамки */ 
+}
+.mask-img{
+display: block;  
+max-width: 100%;
+clip-path: var(--uiMaskClipPath);
+}
+.mask, 
+.mask-img{
+transition: clip-path var(--maskAnimationDuration, .2s) var(--maskAnimationTimingFunction, ease-out);
+}
+
+/* Третья рамка */
+.mask-three {
+position: absolute;
+width: 265px;
+height: 110px;
+top: 1840px;
+left:1001px;
+cursor: pointer;
+z-index: 1;
+--maskClipPath: polygon(0 10%, 10% 10%, 10% 0, 90% 0, 90% 10%, 100% 10%, 100% 90%, 90% 90%, 90% 100%, 10% 100%, 10% 90%, 0 90%);
+}
+.mask-three-frame{
+box-shadow: 2px 1px 23px 26px #d92; 
+--maskAnimationDuration: .5s
+}
+.mask-three:hover, 
+.mask-three:focus{
+transform:matrix(3, 0, 0, 4, -293, -65);  
+transition: all 2s ease-out .2s;/*фото медленно увеличивается*/ 
+--maskClipPath: polygon(90% 0, 100% 0, 100% 10%, 100% 90%, 100% 100%, 90% 100%, 10% 100%, 0 100%, 0 90%, 0 10%, 0 0, 10% 0);
+}
+
+.pufikAndTema {
+width: 255px;
+height: 100px; 
+}
+
 .filterCatInCap {
 position: absolute;
-top: 1525px;
-left: 32px;
+top: 1770px;
+left: 50px;
 }
 
 .image-parlax {
@@ -942,14 +1027,15 @@ cursor: pointer;
 width: 378px;
 height: 213px;
 margin-right: 51px;
-box-shadow: 0px 0px 23px 15px #ff5f54c2;
+background-color: #faebd7;
+box-shadow: 0px 0px 23px 15px #27b795d1;
 cursor: pointer;
 }
 
 .videoT-6 {
 width: 378px;
 height: 213px;
-box-shadow: 0px 0px 23px 15px #27b795d1;
+box-shadow: 0px 0px 23px 15px #ff5f54c2;;
 cursor: pointer;
 }
 
@@ -964,6 +1050,91 @@ border-radius: 50px;
 background-color: #5f9ea0; 
 box-shadow: 0px 0px 27px 27px #9ea1ff;
 }
+
+.accordion {
+position: absolute;
+width: 800px;
+top: 3071px;
+left: 237px;
+z-index: 2;  
+}
+.accordion .contentBx {
+  position: relative;
+  height: auto;
+  margin: 10px 20px;
+}
+.accordion .contentBx .label
+{
+  position: relative;
+  padding: 10px;
+  background: #E64A19;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Pacifico", cursive;
+}
+
+.accordion .contentBx .label:before
+{
+  content: '+';
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  font-size: 1.5em;
+}
+.accordion .contentBx.active .label:before
+{
+  content: '-';
+}
+.accordion .contentBx .content
+{
+  overflow: hidden;
+  height: 0;
+  background: #fff;
+  visibility: hidden;
+  transition: 0.5s;
+  overflow-y: auto; 
+}
+.accordion .contentBx.active .content
+{
+  height: 150px;
+  padding: 10px;
+  visibility: visible;
+  font-family: "Pacifico", cursive;
+}
+
+
+
+.c1{
+    display: inline-block;
+  }
+  
+  h1{
+    font-size: 2.8rem;
+    margin-top: 1%;
+  }
+  h1 .type{
+      font-size: 2.5rem;
+      overflow: hidden;
+      border-right: .15em solid orange;
+      white-space: nowrap; 
+      width: 0;
+      animation: 
+        typing 9.5s steps(30, end) forwards;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  @keyframes blink {
+    from { border-color: transparent }
+    to { border-color: orange; }
+  }
+
+
+
+
 
 .bigPhotoTema {
 position: absolute;

@@ -9,6 +9,8 @@
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" media="screen and (max-width: 1300px)" href="styles.css">
 	<!--<script type="text/javascript">alert("Здравствуйте !!! ");</script>-->
+	<link rel="stylesheet"type="text/javascript" href="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.4/typed.min.js">
+	<link rel="stylesheet"type="text/javascript" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js">
 	<title>😸 Страичка Тёмы</title>
 </head>
 
@@ -56,7 +58,7 @@
 <div class="mySlides">
 <div class="numbertext">3 / 12</div>
 <div class="filter_img">
-<img class="img"src="images/IMG_20221108_1253151.jpg" alt="Тёма на диване">
+<img class="img"src="images/IMG_20221108_1253321.jpg" alt="Тёма на диване">
 </div>
 <article class="slide-text" style="width: 187px; top: -66px; left: 474px;color: #E3B873;">2023 годом !</article>
 <p class="mini-text1-slide" style="right: 723px; color: #09a5ef;"><span class="span">Успехов !</span></p>
@@ -195,8 +197,20 @@
 
 <img class="garland-2" src="http://3rebenka.ru/wp-content/uploads/nygif/xmas1694.gif" alt="Гирлянды">
 <ul class="blockVideo-1">
-<li class="vidos">
+	<li class="vidos">
 <video controls width="400" height="300" class="videoT-1">
+	   <!--видео вставляем с его расширением-->
+<source src="videos/VID_20221107_140303.3gp" type="video/mp4"><!-- MP4 для Safari, IE9, iPhone, iPad, Android, и Windows Phone 7 -->
+<source src="videos/VID_20221107_140303.webm" type="video/webm"><!-- WebM/VP8 для Firefox4, Opera, и Chrome -->
+<source src="videos/VID_20221107_140303.ogg" type="video/ogg"><!-- Ogg/Vorbis для старых версий браузеров Firefox и Opera -->
+<object data="video.sw" type="application/x-shockwave-flash"><!-- добавляем видеоконтент для устаревших браузеров, в которых нет поддержки элемента video -->
+<param name="movie" value="video.swf">
+</object>
+</video>
+</li>
+
+<li class="vidos">
+<video controls width="400" height="300" class="videoT-2">
 	   <!--видео вставляем с его расширением-->
 <source src="videos/VID_20211231_194207.3gp" type="video/mp4"><!-- MP4 для Safari, IE9, iPhone, iPad, Android, и Windows Phone 7 -->
 <source src="videos/VID_20211231_194207.webm" type="video/webm"><!-- WebM/VP8 для Firefox4, Opera, и Chrome -->
@@ -208,23 +222,11 @@
 </li>
 
 <li class="vidos">
-<video controls width="400" height="300" class="videoT-2">
-	   <!--видео вставляем с его расширением-->
-<source src="videos/VID-20211019-WA0004.mp4" type="video/mp4"><!-- MP4 для Safari, IE9, iPhone, iPad, Android, и Windows Phone 7 -->
-<source src="videos/VID-20211019-WA0004.webm" type="video/webm"><!-- WebM/VP8 для Firefox4, Opera, и Chrome -->
-<source src="videos/VID-20211019-WA0004.ogg" type="video/ogg"><!-- Ogg/Vorbis для старых версий браузеров Firefox и Opera -->
-<object data="video.sw" type="application/x-shockwave-flash"><!-- добавляем видеоконтент для устаревших браузеров, в которых нет поддержки элемента video -->
-<param name="movie" value="video.swf">
-</object>
-</video>
-</li>
-
-<li class="vidos">
 <video controls width="400" height="300" class="videoT-3">
 	   <!--видео вставляем с его расширением-->
-<source src="videos/VID-20211019-WA0001.mp4" type="video/mp4"><!-- MP4 для Safari, IE9, iPhone, iPad, Android, и Windows Phone 7 -->
-<source src="videos/VID-20211019-WA0001.webm" type="video/webm"><!-- WebM/VP8 для Firefox4, Opera, и Chrome -->
-<source src="videos/VID-20211019-WA0001.ogg" type="video/ogg"><!-- Ogg/Vorbis для старых версий браузеров Firefox и Opera -->
+<source src="videos/VID_20221123_182132.3gp" type="video/mp4"><!-- MP4 для Safari, IE9, iPhone, iPad, Android, и Windows Phone 7 -->
+<source src="videos/VID_20221123_182132.webm" type="video/webm"><!-- WebM/VP8 для Firefox4, Opera, и Chrome -->
+<source src="videos/VID_20221123_182132.ogg" type="video/ogg"><!-- Ogg/Vorbis для старых версий браузеров Firefox и Opera -->
 <object data="video.sw" type="application/x-shockwave-flash"><!-- добавляем видеоконтент для устаревших браузеров, в которых нет поддержки элемента video -->
 <param name="movie" value="video.swf">
 </object>
@@ -234,8 +236,16 @@
 
 </section>
 
-
 <img class="garland-3" src="http://3rebenka.ru/wp-content/uploads/nygif/xmas16100.gif" alt="Гирлянды">
+
+<div class="beauty-rotate">
+<img class="pufikAndTemaTwo" src="images/IMG_20221107_1359471.jpg" alt="Тёма на пуфике">
+</div>
+
+<figure class="mask mask-three mask-three-frame">
+	<!--<img class="reklama" src="images/IMG_20221130_131906_5921.jpg">-->
+	<img class="pufikAndTema" src="images/IMG_20221130_131906_5921.jpg" alt="Тёма отдыхает на пуфике">
+</figure>
 
 <figure class="filterCatInCap">
 <img class="cat-in-cap"src="http://3rebenka.ru/wp-content/uploads/nygif/11aakita.gif" alt="Кот в новогодней шапке">
@@ -243,7 +253,7 @@
 
 <div class="image-parlax" ontouchstart="this.classList.toggle('hover');">
   <div class="image-container">
-    <div class="front-side" style="background-image: url(images/IMG_20221108_1253321.jpg);">
+    <div class="front-side" style="background-image: url(images/IMG_20221107_140032.jpg);">
       
       <div class="inner">Я
         <p>Любимый и Счастливый</p>
@@ -280,9 +290,9 @@
 <li class="vidosik">
 <video controls width="400" height="300" class="videoT-5">
 	   <!--видео вставляем с его расширением-->
-<source src="videos/VID_20221123_182132.3gp" type="video/mp4"><!-- MP4 для Safari, IE9, iPhone, iPad, Android, и Windows Phone 7 -->
-<source src="videos/VID_20221123_182132.webm" type="video/webm"><!-- WebM/VP8 для Firefox4, Opera, и Chrome -->
-<source src="videos/VID_20221123_182132.ogg" type="video/ogg"><!-- Ogg/Vorbis для старых версий браузеров Firefox и Opera -->
+<source src="videos/VID-20211019-WA00041 - Trim.mp4" type="video/mp4"><!-- MP4 для Safari, IE9, iPhone, iPad, Android, и Windows Phone 7 -->
+<source src="videos/VID-20211019-WA00041 - Trim.webm" type="video/webm"><!-- WebM/VP8 для Firefox4, Opera, и Chrome -->
+<source src="videos/VID-20211019-WA00041 - Trim.ogg" type="video/ogg"><!-- Ogg/Vorbis для старых версий браузеров Firefox и Opera -->
 <object data="video.sw" type="application/x-shockwave-flash"><!-- добавляем видеоконтент для устаревших браузеров, в которых нет поддержки элемента video -->
 <param name="movie" value="video.swf">
 </object>
@@ -292,9 +302,9 @@
 <li class="vidosik">
 <video controls width="400" height="300" class="videoT-6">
 	   <!--видео вставляем с его расширением-->
-<source src="videos/VID_20221108_125436.3gp" type="video/mp4"><!-- MP4 для Safari, IE9, iPhone, iPad, Android, и Windows Phone 7 -->
-<source src="videos/VID_20221108_125436.webm" type="video/webm"><!-- WebM/VP8 для Firefox4, Opera, и Chrome -->
-<source src="videos/VID_20221108_125436.ogg" type="video/ogg"><!-- Ogg/Vorbis для старых версий браузеров Firefox и Opera -->
+<source src="videos/VID_20221123_182132.3gp" type="video/mp4"><!-- MP4 для Safari, IE9, iPhone, iPad, Android, и Windows Phone 7 -->
+<source src="videos/VID_20221123_182132.webm" type="video/webm"><!-- WebM/VP8 для Firefox4, Opera, и Chrome -->
+<source src="videos/VID_20221123_182132.ogg" type="video/ogg"><!-- Ogg/Vorbis для старых версий браузеров Firefox и Opera -->
 <object data="video.sw" type="application/x-shockwave-flash"><!-- добавляем видеоконтент для устаревших браузеров, в которых нет поддержки элемента video -->
 <param name="movie" value="video.swf">
 </object>
@@ -302,6 +312,21 @@
 </li>
 </ul>	
 </section>
+
+<iframe class="iframeTema" idth="560" eight="315" src="videos/VID_20220318_224624.3gp" title="Tema video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<div class="accordion">
+  <div class="contentBx">
+    <div class="label">List One</div>
+    <div class="content">
+      <!--<p>--><h1>здрасте<br>
+      	<div class="c1">
+      		<div class="type">Тема дарит эту страницу вам и желает всеговсего</div>
+        </div>
+<!--</p>-->
+    </div>
+  </div>
+</div>
 
 <section class="bigPhotoTema">
 	<img class="garland-5" src="http://3rebenka.ru/wp-content/uploads/nygif/xlites14.gif" alt="Гирлянды">
@@ -313,7 +338,7 @@
 		<figcaption style="display:none">Тёма на кухне</figcaption> 
 	</figure>
 </section>
-<iframe class="iframeTema" idth="560" eight="315" src="videos/VID_20221110_205047.3gp" title="Tema video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 </main>
 <footer>
 <script type="text/javascript"src="script.js/main.js"></script>		
