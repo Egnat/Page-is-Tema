@@ -1053,9 +1053,10 @@ box-shadow: 0px 0px 27px 27px #9ea1ff;
 
 .accordion {
 position: absolute;
-width: 800px;
-top: 3071px;
-left: 237px;
+width: 1040px;
+top: 2268px;
+left: 129px;
+box-shadow: 0px 0px 12px 6px #ededcf;
 z-index: 2;  
 }
 .accordion .contentBx {
@@ -1070,7 +1071,7 @@ z-index: 2;
   background: #E64A19;
   color: #fff;
   cursor: pointer;
-  font-family: "Pacifico", cursive;
+  font-family: Play, cursive;/*font-family: "Pacifico", cursive;*/
 }
 
 .accordion .contentBx .label:before
@@ -1097,44 +1098,102 @@ z-index: 2;
 }
 .accordion .contentBx.active .content
 {
-  height: 150px;
-  padding: 10px;
-  visibility: visible;
-  font-family: "Pacifico", cursive;
+height: 451px;
+padding: 10px;
+background-color: #7fffd4;
+visibility: visible;
 }
 
+.filterVinokChristmas {
+position: absolute;
+width: 200px;
+height: 200px;
+left: 792px;
+background-image: url(http://3rebenka.ru/wp-content/uploads/nygif/Advent107.gif);
+background-size: cover;
+}
 
-
-.c1{
-    display: inline-block;
+.c1 {
+display: inline-block;
+}
+.c2 {
+display: inline-block;
   }
-  
-  h1{
-    font-size: 2.8rem;
-    margin-top: 1%;
-  }
-  h1 .type{
-      font-size: 2.5rem;
-      overflow: hidden;
-      border-right: .15em solid orange;
-      white-space: nowrap; 
-      width: 0;
-      animation: 
-        typing 9.5s steps(30, end) forwards;
-  }
-  
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-  @keyframes blink {
-    from { border-color: transparent }
-    to { border-color: orange; }
-  }
+.c3 {
+display: inline-block;
+}
+.c4 {
+display: inline-block;
+}
 
+h1 {
+margin-top: 1%;
+font-family: "Pacifico", cursive;
+font-size: 2.0rem;
+color: #ed6eb4;
+}
 
+h1 .type {
+font-size: 1.5rem;
+color: #c99000;
+overflow: hidden;
+order-right: .15em solid orange;/*вид курсора, который печатает текст*/
+white-space: nowrap; 
+width: 0;
+animation: typing 5s steps(30, end) forwards;/*скорость печатанья букв*/
+animation-delay: 10s;/*время через сколько начнёт печататься текст*/
+}
 
+h1 .type2 {
+font-size: 1.5rem;
+color: #d51c58; 
+overflow: hidden;
+order-right: .15em solid orange;/*вид курсора, который печатает текст*/
+white-space: nowrap; 
+width: 0;
+animation: typing 5s steps(30, end) forwards;/*скорость печатанья букв*/
+animation-delay: 19s;/*время через сколько начнёт печататься текст*/
+}
 
+h1 .type3 {
+font-size: 1.5rem;
+color: #ef00ff; 
+overflow: hidden;
+order-right: .15em solid orange;/*вид курсора, который печатает текст*/ 
+white-space: nowrap; 
+width: 0;
+animation: typing 5s steps(30, end) forwards;/*скорость печатанья букв*/
+animation-delay: 30s;/*время через сколько начнёт печататься текст*/
+}
+
+h1 .type4 {
+color: red;
+font-size: 2.5rem; 
+overflow: hidden;
+margin-top: 6%;
+order-right: .15em solid orange;/*вид курсора, который печатает текст*/ 
+white-space: nowrap; 
+width: 0;
+animation: typing 5s steps(30, end) forwards,/*скорость печатанья букв*/
+           blink .15s infinite;
+animation-delay: 40s;/*время через сколько начнёт печататься текст*/
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+@keyframes blink {
+  from { order-color: transparent }
+  to { order-color: orange; }
+}
+
+.we {
+position: absolute;
+bottom: 14px;
+left: 717px;
+font-family: "Pacifico", cursive;   
+}
 
 .bigPhotoTema {
 position: absolute;
