@@ -1177,8 +1177,7 @@ margin-top: 6%;
 order-right: .15em solid orange;/*вид курсора, который печатает текст*/ 
 white-space: nowrap; 
 width: 0;
-animation: typing 5s steps(30, end) forwards,/*скорость печатанья букв*/
-           blink .15s infinite;
+animation: typing 5s steps(30, end) forwards, blink .75s infinite;/*скорость печатанья букв*/          
 animation-delay: 40s;/*время через сколько начнёт печататься текст*/
 }
 
