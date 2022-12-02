@@ -1123,7 +1123,10 @@ display: inline-block;
 display: inline-block;
 }
 .c4 {
+position: absolute;
 display: inline-block;
+width: 979px;
+left: 33px;
 }
 
 h1 {
@@ -1317,8 +1320,6 @@ z-index: 2;
 -webkit-animation-name: mymove;
 -webkit-animation-duration: 75s;
 }  
-
-.accordion { width: 1049px; } 
 }
 
 @media screen and (max-width: 768px) {
