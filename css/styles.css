@@ -107,6 +107,14 @@ height: 200p;/*ширину и высоту  тоже можно устанав�
   background-color: black;
 }
 
+.showflake {
+position: absolute;
+top: 206px;
+left: 486px;
+z-index: 1;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
 .btn-prev, .btn-next { 
   position: absolute;
   top: 50%;
