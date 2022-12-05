@@ -1062,7 +1062,7 @@ box-shadow: 0px 0px 27px 27px #9ea1ff;
 .accordion {
 position: absolute;
 width: 1040px;
-top: 2268px;
+top: 2277px;
 left: 129px;
 box-shadow: 0px 0px 12px 6px #ededcf;
 z-index: 2;  
@@ -1079,7 +1079,10 @@ z-index: 2;
   background: #E64A19;
   color: #fff;
   cursor: pointer;
+  
   font-family: Play, cursive;/*font-family: "Pacifico", cursive;*/
+  font-size: 18px;
+  text-align: center;
 }
 
 .accordion .contentBx .label:before
