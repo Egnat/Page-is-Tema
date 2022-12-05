@@ -983,7 +983,7 @@ left: 50px;
 .front-side .inner span{
   position: absolute;
   top: 130px;
-  right: 278px;
+  right: 284px;
 
   color: #24e6ff;/*rgba(255,255,255,0.7)*/;
   font-family: 'Montserrat';
@@ -1326,7 +1326,9 @@ z-index: 2;
 -webkit-animation: linear infinite;
 -webkit-animation-name: mymove;
 -webkit-animation-duration: 75s;
-}  
+} 
+
+.front-side .inner span {right: 287px;}
 }
 
 @media screen and (max-width: 768px) {
