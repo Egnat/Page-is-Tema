@@ -1208,6 +1208,37 @@ left: 717px;
 font-family: "Pacifico", cursive;   
 }
 
+.textBigPhotoTema{
+position: absolute;
+width: 1280px;
+top: 3095px;
+background-color: #6bb14b8f;
+z-index: 1;
+ext-align: center;/*нужен если будет h1, h2, p*/ 
+/*-webkit-filter: grayscale(100%) contrast(150%) opacity(0.3); /*эффекты можно комбинировать тонируется все содержимое футера, z-index не помогает для растанировки */
+}
+
+.contentTextBigPhotoTema {
+display: flex;
+justify-content: space-between;
+align-items: center;
+color: #e3b873;
+
+font-size:31px;
+list-style-type: none;
+ont-family: "Nunito Sans", Arial, sans-serif;
+font-style: normal;
+font-weight: bold;
+ine-height: 0px;
+list-style: none;/*Убирает точки у ли*/
+text-decoration-line: none;
+}
+
+.letters {
+padding-right: 38p; /*падинг не нужен, просто justify-content: space-between;, потому что вверху поставил * {margin: 0;position: 0;}*/
+text-decoration-line: none; /*в панориуме нужен, потому что *{margin,pading} вверху не ставил*/
+}
+
 .bigPhotoTema {
 position: absolute;
 width: 1280p;
@@ -1257,6 +1288,37 @@ background-image: url('images/IMG_20221123_1841341.jpg');
 background-size: cover;
 background-position: center;
 -webkit-filter: grayscale(29%) contrast(125%) opacity(0.5); /*эффекты можно комбинировать*/   
+}
+
+.footer {
+position: absolute;
+width: 1280px;
+top: 4090px;
+background-color: #6bb14b8f;
+z-index: 1;
+ext-align: center;/*нужен если будет h1, h2, p*/ 
+/*-webkit-filter: grayscale(100%) contrast(150%) opacity(0.3); /*эффекты можно комбинировать тонируется все содержимое футера, z-index не помогает для растанировки */
+}
+
+.text-footer {
+display: flex;
+justify-content: space-between;
+align-items: center;
+color: #e3b873;
+
+font-size:31px;
+list-style-type: none;
+ont-family: "Nunito Sans", Arial, sans-serif;
+font-style: normal;
+font-weight: bold;
+ine-height: 0px;
+list-style: none;/*Убирает точки у ли*/
+text-decoration-line: none;
+}
+
+.letterss {
+padding-right: 38p; /*падинг не нужен, просто justify-content: space-between;, потому что вверху поставил * {margin: 0;position: 0;}*/
+text-decoration-line: none; /*в панориуме нужен, потому что *{margin,pading} вверху не ставил*/
 }
 
 
